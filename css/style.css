@@ -1,0 +1,43 @@
+.banner {
+    position: relative;
+    height: 300px; /* Adjust height as needed */
+  }
+  
+  .banner .carousel-inner {
+    height: 100%; /* Ensure carousel fills the banner height */
+  }
+  
+  .banner .carousel-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner .carousel-item img {
+    max-height: 100%; /* Maintain aspect ratio and fit within banner height */
+  }
+  .image-scroller {
+    width: 100%; /* Adjust width as needed */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling for touch devices */
+    white-space: nowrap; /* Prevent wrapping of images */
+  }
+  
+  .image-container {
+    display: flex; /* Arrange images horizontally */
+    white-space: nowrap; /* Prevent wrapping of images */
+  }
+  
+  .image-item {
+    flex-shrink: 0; /* Prevent images from shrinking when content shrinks */
+    margin-right: 20px; /* Add spacing between images */
+  }
+
+
+  
+
+
+.text-decoration-none:hover {
+    color: #007bff !important; /* Màu xanh khi di chuột vào link */
+}
+
